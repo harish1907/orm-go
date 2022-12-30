@@ -8,5 +8,7 @@ func MigrationTable() {
 		&models.Village{},
 		&models.MyUser{},
 		&models.Language{},
+		&models.Author{},
+		&models.Award{},
 	)
 }

@@ -16,5 +16,7 @@ func main() {
 	r.GET("get/all/states", controllers.GetAllStateAPI)
 	r.POST("all/village", controllers.GetAllVillageByStateAPI)
 	r.POST("add/new/user", controllers.AddNewUserAPI)
+	r.POST("login/user", controllers.LoginUserAPI)
+	r.GET("test/", controllers.AuthorAwardAPI)
 	r.Run()
 }
